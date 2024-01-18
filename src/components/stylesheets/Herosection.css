@@ -1,0 +1,29 @@
+.hero-section {
+    height: 100vh; /* Full viewport height */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    color: #fff; /* Text color */
+    text-align: center;
+  }
+  
+  .hero-text {
+    font-family: 'Poppins',  sans-serif;
+    width: 45%;
+    margin: 2%;
+    
+     /* Use Poppins font */
+  }
+  
+  .hero-title {
+    font-size: 5rem; /* Adjust the font size of your title */
+   
+    font-weight: 800;
+    color: white;
+  }
+  
+  .hero-subtitle {
+    font-size: 1.5em; /* Adjust the font size of your subtitle */
+    margin-top: 0;
+  }

@@ -1,0 +1,45 @@
+
+.full-screen-section {
+    display: flex;
+    height: 100vh;
+    padding: 2%;
+  }
+  
+  .left {
+    flex: 1;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    font-family: 'Poppins', sans-serif; /* Use Poppins font */
+    color: white;
+  }
+  
+  .section-title {
+    font-size: 5rem; /* Adjust the font size of your title */
+    font-weight: 800;
+  }
+  
+  .section-text {
+    font-size: 1.5rem; /* Adjust the font size of your text */
+    margin-bottom: 20px;
+  }
+  
+  .section-button {
+    padding: 10px 20px;
+    font-size: 1.2rem;
+    background-color: #333; /* Change the button color as needed */
+    color: white;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .right {
+    flex: 1;
+    overflow: hidden; /* Ensure the image doesn't exceed its container */
+  }
+  
+  .section-image {
+    /* Maintain aspect ratio and cover the container */
+  }

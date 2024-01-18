@@ -1,0 +1,40 @@
+.navbar {
+    position: fixed;
+  
+  width: 100%;
+  display: flex;
+ 
+  z-index: 11;
+    
+  }
+  .container{
+    
+    width: 100%;
+    padding: 2%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    /* Change the background color as needed */
+    color: #fff; /* Change the text color as needed */
+  }
+  
+  .logo {
+     /* Adjust the width of your logo */
+    height: auto;
+  }
+  
+    .join-us {
+        font-family: 'Poppins', sans-serif; /* Use Poppins font */
+        cursor: pointer;
+        font-weight: 700;
+       
+        transition: all 0.3s ease;
+        
+        /* Add any additional styles for the "Join Us" text */
+    }
+
+    .join-us:hover {
+        /* Change background color on hover */
+        color: #1EA6C6; /* Change font color on hover */
+      }
